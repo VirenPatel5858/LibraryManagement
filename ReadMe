@@ -1,0 +1,40 @@
+Java 20 Project Readme
+This project utilizes Java 20 and includes the following executable files:
+## Executable Files:
+dashboard.java
+Description: This file contains code related to the project's dashboard
+functionality. -
+**Usage:** To execute this file, use the Java compiler to compile and run the
+code. ```bash javac dashboard.java java dashboard
+addstaff.java
+● Description: This file contains code to handle adding staff members to the
+project.
+● Usage: To execute this file, use the Java compiler to compile and run the
+code.
+javac addstaff.java java addstaff
+addbook.java
+● Description: This file manages the addition of books to the system.
+● Usage: To execute this file, use the Java compiler to compile and run the
+code.
+javac addbook.java java addbook
+MySQL Setup:
+To run this project successfully, you'll need to install the latest version of MySQL.
+Follow the installation instructions provided on the official MySQL website.
+SQL Part:
+1. After installing MySQL, create a database named library using the MySQL
+command line or a GUI tool like MySQL Workbench:
+DATABASE library;
+2. Execute the following SQL scripts to set up the necessary tables and
+schema for the project within the library database:
+mysql -u your_username -p library < books.sql mysql -u your_username -p library < admin.sql mysql -u
+your_username -p library < staff.sql
+Replace your_username with your MySQL username. You will be prompted to enter
+your MySQL password.
+Instructions:
+1. Ensure you have Java 20 installed on your system.
+2. Compile the desired Java files using the Java compiler.
+3. Set up MySQL and create the library database.
+4. Execute the SQL scripts (books.sql, admin.sql, staff.sql) within the library
+database.
+5. Run the compiled Java files using the java command.
+ains information o
